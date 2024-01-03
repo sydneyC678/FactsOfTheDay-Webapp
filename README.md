@@ -1,6 +1,8 @@
 # FactsOfTheDay-Webpage
 <h1>Overview</h1>
+
 The application, 'Fun Facts of the Day,' aims to create an engaging platform where users can discover and share intriguing pieces of information across various categories. Users have the functionality to post facts, categorized under technology, science, finance, society, entertainment, health, history, and news. Each fact allows interaction through voting buttons, enabling users to express their interest or reactions. 
+
 
 This full-stack project integrates HTML, CSS, JavaScript, and React to build a dynamic web application. Leveraging Supabase, an online database and API service, facilitates data management within the app. The app is deployed on Netlify, ensuring its availability and accessibility.
 
