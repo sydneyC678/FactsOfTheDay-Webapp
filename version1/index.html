@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fun Facts of the Day!</title>
+
+    <!-- Link for google fonts, choose a more bubbly font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Link to css page-->
+    <link href="style.css" rel="stylesheet" />
+
+  </head>
+
+  <body>
+    <div class="contain">
+      <!--Header-->
+      <!--Contains 3 parts-->
+      <header class="header">
+        <div class="logo">
+          <img src="images/logo.png" alt="Logo of Fun Facts of the Day!" />
+          <h1>Fun Facts of the Day!</h1>
+        </div>
+        <button class="btn large-button fact-button">
+          Share a Fact!
+        </button>
+      </header>
+
+      <!--Form in top right corner in the header-->
+      <!--When clicked on the button (js), above it should show the following: -->
+      <form class="fact-form hidden" >
+        <input type="text" placeholder="Share a fun fact!" /> <span>200</span>
+        <input type="text" placeholder="Trustworthy source" />
+        <select>
+          <option value="">Choose category:</option>
+          <option value="technology">Technology</option>
+          <option value="science">Science</option>
+          <option value="finance">Finance</option>
+        </select>
+        <button class="btn large-button">Post</button>
+      </form>
+      <!--
+        Adding the facts below in different paragraphs
+        Create a list of paragraphs
+    -->
+
+      <main class="main">
+        <!--main content of the page-->
+        <!--Grid container
+        Navigation bar has specific widt and height
+    -->
+
+        <!--Grid element #1-->
+        <aside class="nav">
+          <ul>
+            <!-- List for the side navigation bar-->
+            <li class = "category">
+              <button class="btn all-button">All</button>
+            </li>
+            <li class = "category">
+              <button
+                class="btn category-button"
+                style="background-color: #3b82f6"
+              >
+                Technology
+              </button>
+            </li>
+            <li class = "category">
+              <button
+                class="btn category-button"
+                style="background-color: #16a34a"
+              >
+                Science
+              </button>
+            </li>
+          </ul>
+        </aside>
+
+        <!--Grid element #2-->
+        <section>
+          <ul class = "fact-list">
+            <!-- List for the fun facts-->
+            <li class="fact">
+              <p>
+                React is being developed by Meta (formerly facebook)
+                <a
+                  class="source"
+                  href="https://opensource.fb.com/"
+                  target="_blank"
+                  >(Source)</a
+                >
+                <!--target attribute set to blank makes sure it opens to a new tab-->
+              </p>
+              <span class="tag" style="background-color: #3b82f6""
+                >#technology#</span
+              >
+
+              <div class="reactions">
+                <button class  = "react-btn">👍 31</button>
+                <button class  = "react-btn">🤯 8</strong></button>
+                <button class  = "react-btn">⛔️ 1</strong></button>
+              </div>
+            </li>
+
+            <li class="fact">
+              <p>
+                Millennial dads spend 3 times as much time with their kids than
+                their fathers spent with them. In 1982, 43% of fathers had never
+                changed a diaper. Today, that number is down to 3%
+                <a
+                  class="source"
+                  href="https://www.mother.ly/parenting/millennial-dads-spend-more-time-with-their-kids"
+                  target="_blank"
+                  >(Source)</a
+                >
+              </p>
+              <span class="tag" style="background-color: #16a34a">#society#</span>
+
+              <div class="reactions">
+                <button class  = "react-btn">👍 23</button>
+                <button class  = "react-btn">🤯 6</button>
+                <button class  = "react-btn">⛔️ 2</button>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+        <!--Connect the javascript files-->
+    <script src = "script.js"></script>
+  </body>
+
+    
+</html>

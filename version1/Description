@@ -1,0 +1,2 @@
+This full stack project uses the fundamentals of HTML, CSS, Javascript and React.
+I started this project by creating the skeleton of the app HTML, styling and creating the layouts of the app with CSS, used an online data base and API with Supabase and to make the app come to life, I used Javascript to load the data of the app using the React library and finally deployed it to a web server.
