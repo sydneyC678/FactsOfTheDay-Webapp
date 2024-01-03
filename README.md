@@ -19,6 +19,7 @@ This full-stack project integrates HTML, CSS, JavaScript, and React to build a d
   
 4. **Deployment on Netlify:**
    - Hosted and deployed the application on Netlify, ensuring its availability as a web service.
+   - https://facts-of-the-day.netlify.app/
 
 <h3>Key Aspects and Challenges</h3>
 
