@@ -31,6 +31,7 @@ This full-stack project integrates HTML, CSS, JavaScript, and React to build a d
   
 
 <h3>Sources of Improvement</h3>
+
 1. Enhancing UI/UX: The current focus was primarily on integrating the backend and frontend functionality. To further elevate the application, dedicated attention to refining the user interface (UI) and user experience (UX) would significantly enhance engagement. This includes employing modern design principles, optimizing layout and visual elements, and ensuring intuitive navigation.
 
 2. Login and logout options help users engage more and keep their information safe. When users log in, they can share facts, making the app more fun. Also, having a personal profile showing what they've done in the app makes users feel more connected to it.
